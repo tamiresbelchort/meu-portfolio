@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0f19">
+
+  <meta name="description"
+    content="Portfólio de desenvolvimento de software. Projetos web, PHP, MySQL e JavaScript.">
+
+  <title>Tamires | Desenvolvedora de Software</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio">
+        <span class="logo-icon">&lt;/&gt;</span>
+        dev.portfolio
+      </a>
+
+      <button class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+        aria-controls="nav-links">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a class="nav-contact" href="#contato">Contato ↗</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-content">
+        <div class="status">
+          <span class="status-dot"></span>
+          Buscando oportunidade de estágio
+        </div>
+
+        <p class="eyebrow">OLÁ, MEU NOME É</p>
+        <h1>Tamires<span class="accent"></span></h1>
+
+        <h2>Desenvolvedora de software em formação<span class="accent"></span></h2>
+
+        <p class="hero-description">
+          Estudante de Engenharia da Computação, desenvolvendo
+          soluções web com PHP, MySQL, HTML, CSS e JavaScript.
+          Gosto de transformar problemas reais em aplicações úteis.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">
+            Conheça meus projetos <span>↗</span>
+          </a>
+
+          <a class="button button-secondary"
+             href="https://github.com/tamiresbelchort"
+             target="_blank"
+             rel="noopener noreferrer">
+            GitHub <span>↗</span>
+          </a>
+        </div>
+
+        <div class="hero-tech">
+          <span>PHP</span>
+          <span>MySQL</span>
+          <span>JavaScript</span>
+          <span>HTML & CSS</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Ilustração de código">
+        <div class="code-window">
+          <div class="window-bar">
+            <div class="window-dots">
+              <i></i><i></i><i></i>
+            </div>
+            <span>developer.js</span>
+          </div>
+
+          <div class="code-content">
+            <p><span class="line">01</span> <span class="purple">const</span> dev = {</p>
+            <p><span class="line">02</span> &nbsp; nome: <span class="green">'Tamires'</span>,</p>
+            <p><span class="line">03</span> &nbsp; foco: <span class="green">'Desenvolvimento web'</span>,</p>
+            <p><span class="line">04</span> &nbsp; tecnologias: [</p>
+            <p><span class="line">05</span> &nbsp;&nbsp; <span class="green">'PHP'</span>, <span class="green">'MySQL'</span>,</p>
+            <p><span class="line">06</span> &nbsp;&nbsp; <span class="green">'HTML'</span>, <span class="green">'CSS'</span>,</p>
+            <p><span class="line">07</span> &nbsp;&nbsp; <span class="green">'JavaScript'</span></p>
+            <p><span class="line">08</span> &nbsp; ],</p>
+            <p><span class="line">09</span> &nbsp; aprendendo: <span class="green">true</span>,</p>
+            <p><span class="line">10</span> &nbsp; prontaParaDesafios: <span class="green">true</span></p>
+            <p><span class="line">11</span> };</p>
+            <p class="code-comment">// Sempre evoluindo.</p>
+          </div>
+        </div>
+
+        <div class="floating-tag tag-top">{"</>"} Clean code</div>
+        <div class="floating-tag tag-bottom">✦ Aprendizado contínuo</div>
+      </div>
+    </section>
+
+    <section class="section container" id="sobre">
+      <div class="section-heading">
+        <p class="eyebrow">01 / SOBRE MIM</p>
+        <h2>Conheça minha <span class="accent">trajetória.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <span class="card-icon">⌘</span>
+          <h3>Quem sou</h3>
+          <p>
+            Sou estudante de Engenharia da Computação e tenho
+            interesse em desenvolvimento de software, sistemas web
+            e banco de dados. Busco aprender na prática e evoluir
+            por meio de projetos e desafios técnicos.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <span class="card-icon">✳</span>
+          <h3>O que busco</h3>
+          <p>
+            Uma oportunidade de estágio em tecnologia para aplicar
+            meus conhecimentos, colaborar com uma equipe e
+            desenvolver soluções que gerem resultados.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="habilidades">
+      <div class="section-heading">
+        <p class="eyebrow">02 / TECNOLOGIAS</p>
+        <h2>Ferramentas que utilizo<span class="accent">.</span></h2>
+        <p class="section-description">
+          Tecnologias que venho utilizando e desenvolvendo
+          nos meus estudos e projetos.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-symbol php">PHP</span>
+          <h3>PHP</h3>
+          <p>Desenvolvimento web e lógica de backend</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-symbol mysql">DB</span>
+          <h3>MySQL</h3>
+          <p>Modelagem, relacionamentos e consultas SQL</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-symbol html">&lt;/&gt;</span>
+          <h3>HTML & CSS</h3>
+          <p>Estrutura, layout e interfaces responsivas</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-symbol js">JS</span>
+          <h3>JavaScript</h3>
+          <p>Interatividade e manipulação de elementos</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-symbol git">GIT</span>
+          <h3>Git & GitHub</h3>
+          <p>Versionamento e organização de projetos</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="projetos">
+      <div class="section-heading">
+        <p class="eyebrow">03 / PORTFÓLIO</p>
+        <h2>Projetos em <span class="accent">destaque.</span></h2>
+        <p class="section-description">
+          Projetos acadêmicos e pessoais que representam
+          minha evolução como desenvolvedora.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card project-featured">
+          <div class="project-top">
+            <span class="project-number">PROJETO 01</span>
+            <span class="project-type">Projeto acadêmico</span>
+          </div>
+
+          <div class="project-art health-art" aria-hidden="true">
+            <span class="art-cross">+</span>
+            <div class="art-window">
+              <span class="art-line wide"></span>
+              <span class="art-line"></span>
+              <span class="art-line medium"></span>
+              <div class="art-calendar">
+                <span>SEG</span><span>TER</span><span>QUA</span>
+                <b>12</b><b>13</b><b>14</b>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <h3>Agenda Saúde</h3>
+            <p>
+              Sistema web acadêmico para agendamento de consultas
+              e organização de fluxos de atendimento em saúde.
+            </p>
+
+            <div class="project-tags">
+              <span>PHP</span><span>MySQL</span>
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/tamiresbelchort/agenda-saude"
+                 target="_blank" rel="noopener noreferrer">
+                Código-fonte ↗
+              </a>
+              <a href="https://agendasaude.ntiuniso.com.br/"
+                 target="_blank" rel="noopener noreferrer">
+                Ver sistema ↗
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-number">PROJETO 02</span>
+            <span class="project-type">Em planejamento</span>
+          </div>
+
+          <div class="project-art stock-art" aria-hidden="true">
+            <div class="stock-bars">
+              <span></span><span></span><span></span>
+              <span></span><span></span><span></span>
+              <span></span><span></span><span></span>
+            </div>
+            <div class="stock-panel">
+              <span>PRODUTOS</span>
+              <span>ENTRADAS</span>
+              <span>ESTOQUE</span>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <h3>Controle de estoque</h3>
+            <p>
+              Aplicação para cadastro de produtos, movimentações
+              de estoque e consulta de quantidades disponíveis.
+            </p>
+
+            <div class="project-tags">
+              <span>PHP</span><span>MySQL</span><span>CRUD</span>
+            </div>
+
+            <p class="project-note">
+              Próximo projeto a desenvolver.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-number">PROJETO 03</span>
+            <span class="project-type">Em planejamento</span>
+          </div>
+
+          <div class="project-art finance-art" aria-hidden="true">
+            <div class="finance-total">
+              <span>RESUMO MENSAL</span>
+              <b>Receitas & despesas</b>
+            </div>
+            <div class="finance-chart">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <h3>Controle de despesas</h3>
+            <p>
+              Aplicação para registrar receitas e gastos,
+              organizar categorias e acompanhar resultados mensais.
+            </p>
+
+            <div class="project-tags">
+              <span>JavaScript</span><span>HTML</span><span>CSS</span>
+            </div>
+
+            <p class="project-note">
+              Próximo projeto a desenvolver.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato">
+      <div class="container contact-content">
+        <p class="eyebrow">04 / CONTATO</p>
+        <h2>Vamos construir algo <span class="accent">juntos?</span></h2>
+        <p>
+          Estou em busca de uma oportunidade de estágio
+          para aprender, colaborar e crescer na área de tecnologia.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary"
+             href="mailto:SEU-EMAIL@EXEMPLO.COM">
+            Enviar e-mail ↗
+          </a>
+
+          <a class="button button-secondary"
+             href="https://www.linkedin.com/"
+             target="_blank" rel="noopener noreferrer">
+            LinkedIn ↗
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/SEU-USUARIO"
+             target="_blank" rel="noopener noreferrer">GitHub</a>
+          <span>·</span>
+          <a href="https://www.linkedin.com/"
+             target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a class="logo" href="#inicio">
+        <span class="logo-icon">&lt;/&gt;</span>
+        dev.portfolio
+      </a>
+
+      <p>© <span id="year"></span> Seu Nome. Desenvolvido com código.</p>
+
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
